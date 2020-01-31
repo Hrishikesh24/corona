@@ -1,9 +1,14 @@
 .App {
-display: grid; 
-grid-template-columns: 50% 50%;
-grid-template-rows: 30% 70%;
-
+  display: grid; 
+  grid-template-columns: 49% 49%;
+  background: #1E1d21;
+  grid-gap: 1em;
+  grid-template-areas:
+  'part-1 part-2'
+  'video article';
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -41,33 +46,84 @@ grid-template-rows: 30% 70%;
 }
 
 .line-graph {
-  color : blue; 
+ 
   background: black;
 
 
 }
 
 .bar-graph {
-  background: black;
 
 }
 
 .tips-section {
-  background: black; 
+ 
+
   color: green; 
   text-align: left; 
 }
 
 .country-section {
-  background: green;
+
 }
 
 .part-2 {
   display: grid; 
   grid-template-columns: 50% 50%;
+  grid-gap: 0.5em;
+  grid-area: part-2;
+
+
+
 }
 
 .part-1-2 {
 display: grid; 
 grid-template-columns: 60% 40% ;
+grid-gap: 1em;
+
+}
+
+.article-section {
+  grid-area: article;
+
+}
+
+.video-section {
+  grid-area: video;
+
+}
+
+.app-sub{
+
+}
+
+.round {
+  border-radius: 8px;
+  background: #262529; 
+}
+
+.part-1 {
+  grid-area: part-1;
+
+}
+
+@media (max-width: 500px) {
+  .App {
+      grid-template-areas:
+
+      'part-1'
+      'part-2'
+      'video'
+      'article';
+      grid-template-columns: 100%;
+  }
+  .part-1 {
+    grid-template-columns: 100%;
+
+  }
+  .part-2 {
+    grid-template-columns: 100%;
+
+  }
 }

@@ -6,3 +6,16 @@
 
     font-family: Arial;
 }
+
+
+body {
+    background: #1E1d21;
+
+}
+
+
+
+#root {
+    background: #1E1d21; 
+    height: 100vh;
+}

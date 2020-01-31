@@ -19,52 +19,50 @@ function App() {
         <div className="maps">
           <Maps />
         </div>
-<div className="part-1-2"> 
-        <div className="video-section">
-          <Video />
 
-        </div>
-
-        <div className="article-section">
-          <Article />
-</div>
-        </div>
       </div>
+
       <div className="part-2">
-        <div className="tips-section">
+        <div className="tips-section round">
           <Tips />
         </div>
 
-        <div className="line-graph">
+        <div className="line-graph round">
           <Chart />
 
         </div>
 
-        <div className="helpline-section">
-          <Helpline />
-        </div>
-
-        <div className="bar-graph">
-          <Barchart />
-        </div>
-
-
-
-
-
-
-        <div className="country-section">
+        <div className="country-section round">
           <Countries />
         </div>
 
 
+        <div className="bar-graph round">
+          <Barchart />
+        </div>
 
+        <div className="helpline-section round">
+          <Helpline />
+        </div>
 
 
 
 
 
       </div>
+
+
+      <div className="video-section round">
+        <Video />
+
+      </div>
+
+      <div className="article-section round">
+        <Article />
+      </div>
+
+
+
 
     </div>
   );
