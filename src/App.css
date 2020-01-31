@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+display: grid; 
+grid-template-columns: 50% 50%;
+grid-template-rows: 30% 70%;
+
 }
 
 .App-logo {
@@ -35,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.line-graph {
+  color : blue; 
+  background: black;
+
+
+}
+
+.bar-graph {
+  background: black;
+
+}
+
+.tips-section {
+  background: black; 
+  color: green; 
+  text-align: left; 
+}
+
+.country-section {
+  background: green;
+}
+
+.part-2 {
+  display: grid; 
+  grid-template-columns: 50% 50%;
+}
+
+.part-1-2 {
+display: grid; 
+grid-template-columns: 60% 40% ;
 }
