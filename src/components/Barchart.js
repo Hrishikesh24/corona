@@ -18,14 +18,15 @@ class Barchart extends Component {
                     {
                         label: 'Population',
                         data: [
-                            617594,
-                            181045,
-                            153060
+                            11374,
+                            259,
+                            252
                         ],
-                        backgroundColor: ['rgba(255, 99, 132, 0.6)',
-                            'rgba(54, 162, 235, 0.6)',
-                            'rgba(255, 206, 86, 0.6)'], 
-                            barPercentage : 0.3
+                        backgroundColor: ['#cb1717',
+                            '#fd1d1d',
+                            '#fe6161'], 
+                            barPercentage : 0.4, 
+                            display: 'auto'
 
                     }
                 ]
@@ -44,8 +45,17 @@ class Barchart extends Component {
                     options={{
                         legend: {
                             display: false
+                        },
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
                         }
-                    }}
+                    }
+                
+                }
 
                 />
 

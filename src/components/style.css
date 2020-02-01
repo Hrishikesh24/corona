@@ -4,7 +4,7 @@
     padding-left: 10px;
     }
     
- .embed-container {position: relative; padding-bottom: 70%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
+ .embed-container {position: relative; padding-bottom: 60.5%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
  
 .cases-color {
     color: rgb(253, 29, 29); 
@@ -21,41 +21,65 @@
 
 .para {
     font-size: 0.9em;
-}
-
-.internal-tips {
-    padding: 1.4em; 
-}
-
-.actual-color {
-    width: 1em; 
-    height: 1em;
-    background: #CB1717;
-
+    color: #aaaaaa; 
 
 }
 
-.predicted-color {
-    width: 1em; 
-    height: 1em;
-    background: #FE6161;
 
-}
 
 .predicted-alignment {
     display: flex; 
-    flex-direction: column;
-
-
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1em; 
+    padding-left:5px;
+    
 
 }
 
 .predicted-1 {
     display: flex; 
     flex-direction: row;
+    justify-content: space-around;
+
+
 }
 
 .actual-1 {
     display: flex; 
-    flex-direction: row;
+    flex-direction: row; 
+
+
+} 
+
+.country {
+    display: flex;
+    justify-content: space-evenly;
+    color: #AAAAAA; 
+
+}
+
+.alert-color {
+    color: #FD1D1D; 
+
+}
+
+
+.svg-alert{
+    margin-right: 8px;
+}
+
+.h4-countries {
+    margin: 5px;
+    padding-bottom: 4px;
+    font-size : 1rem;
+
+}
+
+.predicted-color {
+    margin-right : 10px; 
+}
+
+.actual-color {
+    margin-right : 10px; 
 }

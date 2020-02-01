@@ -55,15 +55,22 @@ class Chart extends Component {
 
                 <div className="predicted-alignment">
                     <div className="predicted-1">
-                        <div className="predicted-color">  </div>
-                        <div> Predicted  </div>
+                        <div className="predicted-color">  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                            <rect id="predictedSq" width="11" height="11" fill="#fe6161" />
+                        </svg>
+
+                        </div>
+                        <div>  Predicted  </div>
                     </div>
 
 
 
 
                     <div className="actual-1">
-                        <div className="actual-color"> </div>
+                        <div className="actual-color"> <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11">
+                            <path id="actualSq" d="M0,0H10V11H0Z" fill="#cb1717" />
+                        </svg>
+                        </div>
                         <div> Actual </div>
                     </div>
 

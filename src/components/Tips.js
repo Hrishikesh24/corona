@@ -17,15 +17,14 @@ let tips = () => {
                 Tips:
             </h5>
 
-            <p className="para"> • {tipObject.tips[0]} </p>
+            <p className="para"> • {tipObject.tips[0]}</p>
             <p className="para"> • {tipObject.tips[1]}</p>
             <p className="para"> • {tipObject.tips[2]}</p>
             <p className="para"> • {tipObject.tips[3]}</p>
             <p className="para"> • {tipObject.tips[4]}</p>
-            <p className="para"> • {tipObject.tips[4]}</p>
-            <p className="para"> • {tipObject.tips[4]}</p>
 
-        
+
+
 
 
 
