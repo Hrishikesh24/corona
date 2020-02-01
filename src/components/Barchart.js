@@ -9,7 +9,7 @@ class Barchart extends Component {
     constructor(props) {
         super(props);
 
-console.log(Data);
+        console.log(Data);
 
         this.state = {
             barData: {
@@ -24,7 +24,8 @@ console.log(Data);
                         ],
                         backgroundColor: ['rgba(255, 99, 132, 0.6)',
                             'rgba(54, 162, 235, 0.6)',
-                            'rgba(255, 206, 86, 0.6)']
+                            'rgba(255, 206, 86, 0.6)'], 
+                            barPercentage : 0.3
 
                     }
                 ]
@@ -40,7 +41,11 @@ console.log(Data);
                 <Bar
                     data={this.state.barData}
 
-                    option={{}}
+                    options={{
+                        legend: {
+                            display: false
+                        }
+                    }}
 
                 />
 

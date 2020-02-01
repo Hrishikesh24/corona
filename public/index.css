@@ -3,7 +3,6 @@
     justify-content: center;
     background : black; 
     color: white; 
-
     font-family: Arial;
 }
 
@@ -13,9 +12,9 @@ body {
 
 }
 
-
-
 #root {
     background: #1E1d21; 
-    height: 100vh;
+
+
+
 }
