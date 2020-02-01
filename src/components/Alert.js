@@ -11,7 +11,7 @@ let Alert = () => {
                 Alerts:
             </h5>
 
-            <p> 2 out of 10 people infected by nCoV die and the increase is exponential. </p>
+            <p className="alert-data"> 2 out of 10 people infected by nCoV die and the increase is exponential. </p>
         </div>
     )
 }

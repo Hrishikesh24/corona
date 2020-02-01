@@ -54,9 +54,15 @@
 
 .country {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     color: #AAAAAA; 
 
+}
+
+.name-country {
+ 
+    padding-right : 1em; 
+ 
 }
 
 .alert-color {
@@ -70,10 +76,14 @@
 }
 
 .h4-countries {
-    margin: 5px;
+
     padding-bottom: 4px;
     font-size : 1rem;
 
+}
+
+div .country {
+    padding-left: 0;
 }
 
 .predicted-color {

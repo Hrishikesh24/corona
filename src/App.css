@@ -147,6 +147,19 @@
   grid-area: schedule-section;
   padding-right: 10px; 
 
+
+}
+
+.schedule-section div a {
+  text-decoration: none ;
+  color: #5851DB;
+  cursor: pointer;
+}
+
+.schedule-section div a:visited {
+  text-decoration: none ;
+  color: #5851DB;
+
 }
 
 
@@ -196,6 +209,15 @@ grid-row: 4 / 5;
 display: flex;
 justify-content: flex-end;
 align-items: center;
+  }
+
+  div .breakLine a {
+    text-decoration: none ;
+    color: #5851DB;
+  }
+
+  .helpline-contant > div:nth-child(even){
+    cursor: pointer;
   }
 
   .part-1 {
@@ -250,8 +272,8 @@ width: 90%;
 padding-left: 23px; 
 
 
+}
 
-
-
-
+alert-data {
+  font-size: 1rem;
 }
